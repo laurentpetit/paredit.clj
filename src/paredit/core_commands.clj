@@ -513,7 +513,8 @@
                  ;;;   "\n        port))\n        bar"
                  ;;   )
                  "   a\n       |" "   a\n   |"
-                }]
+                 ")|s" ")|s"
+                 ")\n|s" ")\n|s"}]
       #_["C-j"     :paredit-newline
                 {"(ab|cd)" "(ab\n  |cd)"
                  "(ab|     cd)" "(ab\n  |cd)"
